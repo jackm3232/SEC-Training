@@ -1,1 +1,1 @@
-# SEC-Training
+SEC-Training
