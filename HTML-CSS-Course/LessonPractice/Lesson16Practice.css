@@ -1,0 +1,59 @@
+.channel_picture_tight_container {
+  position: relative;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.profile_picture {
+  width: 36px;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.channel_tooltip {
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  height: 56px;
+  background-color: rgb(249, 249, 249);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 14px;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.channel_picture_tight_container:hover .channel_tooltip {
+  opacity: 1;
+}
+
+.tooltip_picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.tooltip_text_container {
+  white-space: nowrap;
+}
+
+.tooltip_author {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.tooltip_subscribers {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}

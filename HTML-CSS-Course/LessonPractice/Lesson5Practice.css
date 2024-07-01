@@ -1,0 +1,183 @@
+p {
+  font-family: Arial;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.tahoma_text {
+  font-family: Tahoma;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.course_text {
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.difficulty_text {
+  font-family: Verdana;
+  color: gray;
+  margin-bottom: 14px;
+}
+
+.description_text {
+  font-family: Verdana;
+  width: 250px;
+  margin-bottom: 14px;
+}
+
+.get_started_button {
+  background-color: green;
+  color: white;
+  font-family: Verdana;
+  border: none;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.get_started_button:hover {
+  opacity: 0.75;
+}
+
+.deals_text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sales_text {
+  font-size: 16px;
+  color: red;
+  margin-bottom: 40px;
+}
+
+.shopping_text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.help_text {
+  margin-left: 34px;
+  margin-bottom: 14px;
+}
+
+.learn_text {
+  color: blue;
+  cursor: pointer;
+  margin-left: 90px;
+  margin-bottom: 40px;
+}
+
+.learn_text:hover {
+  text-decoration: underline;
+}
+
+.new_text {
+  color: orange;
+  font-weight: bold;
+  margin-left: 148px;
+  margin-bottom: 4px;
+}
+
+.macbook_text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.supercharged_text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.price_text {
+  margin-left: 125px;
+  margin-bottom: 10px;
+}
+
+.buy_button {
+  background-color: rgb(22, 116, 203);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 135px;
+  margin-bottom: 40px;
+  cursor:pointer;
+  transition: opacity 0.15s;
+}
+
+.buy_button:hover {
+  opacity: 0.7;
+}
+
+.FCC_tweet_header {
+  margin-bottom: 8px;
+}
+
+.FCC_username {
+  font-weight: bold;
+}
+
+.FCC_handle {
+  color: gray;
+}
+
+.tweet_part_1 {
+  margin-bottom: 18px;
+  width: 480px;
+}
+
+.tweet_part_2 {
+  margin-bottom: 40px;
+}
+
+.chp_handle {
+  color: rgb(0, 139, 203);
+  cursor: pointer;
+}
+
+.current_value {
+  margin-bottom: 4px;
+}
+
+.current_price {
+  font-size: 35px;
+}
+
+.country {
+  color: gray;
+}
+
+.increase_today {
+  color: green;
+  margin-bottom: 6px;
+}
+
+.after_hours_value {
+  margin-bottom: 40px;
+}
+
+.after_hours_price {
+  color: gray;
+}
+
+.after_hours_decrease {
+  color: rgb(188, 0, 0);
+}

@@ -1,0 +1,197 @@
+.blue_div {
+  background-color: lightblue;
+}
+
+.pink_div {
+  background-color: lightpink;
+}
+
+.flexbox1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.flexbox1_div1 {
+  width: 200px;
+}
+
+.flexbox1_div2 {
+  width: 75px;
+}
+
+.flexbox2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.flexbox2_div1 {
+  width: 50px;
+}
+
+.flexbox2_div2 {
+  flex: 1;
+}
+
+.flexbox2_div3 {
+  width: 75px;
+}
+
+.flexbox3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.flexbox4 {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 300px;
+  border-width: 1px;
+  border-color: rgba(150, 148, 148, 0.6);
+  border-style: solid;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.row_flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.number {
+  background-color: rgb(29, 117, 189);
+  color: white;
+  border-radius: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.bar_flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 50px;
+}
+
+.home {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search_bar {
+  border-radius: 16px;
+  border: none;
+  width: 650px;
+  height: 25px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.download_button {
+  background-color: blueviolet;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 11px;
+  padding-right: 11px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.download_button:hover {
+  opacity: 0.65;
+}
+
+.profile_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile_image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 35px;
+  margin-right: 10px;
+}
+
+.info_div {
+  width: 200px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.name_text {
+  font-weight: bold;
+}
+
+.description_text {
+  color: gray;
+}
+
+.popular_text {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.follow_button {
+  background-color: rgb(44, 142, 221);
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.follow_button:hover {
+  opacity: 0.7;
+}

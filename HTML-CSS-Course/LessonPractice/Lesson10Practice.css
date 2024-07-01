@@ -1,0 +1,74 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.all_boxes {
+  display: inline-block;
+}
+
+.individual_box {
+  display: inline-block;
+  width: 200px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+  margin-right: 15px;
+}
+
+.profile_image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+  margin-bottom: 12px;
+}
+
+.name_text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.mutual_image_div,
+.mutual_text_div {
+  display: inline-block;
+}
+
+.mutual_image {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 18px;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 6px;
+}
+
+.mutual_text {
+  display: inline-block;
+  color: gray;
+  vertical-align: middle;
+}
+
+.add_button {
+  background-color: rgb(52, 122, 226);
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-left: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.add_button:hover {
+  opacity: 0.8;
+}

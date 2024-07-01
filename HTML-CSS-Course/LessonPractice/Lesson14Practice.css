@@ -1,0 +1,186 @@
+body {
+  height: 3000px;
+}
+
+div {
+  font-family: Arial;
+}
+
+.right_sidebar {
+  position: fixed;
+  width: 100px;
+  background-color: green;
+  color: white;
+  top: 100px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.bottom_right {
+  position: fixed;
+  background-color: black;
+  color: white;
+  bottom: 20px;
+  right: 10px;
+}
+
+.overlay_entire_page {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal_div {
+  width: 700px;
+  background-color: white;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.modal_title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.modal_text {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.header_flexbox {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.header_inner_flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.friend_image_div {
+  margin-right: 20px;
+}
+
+.friend_image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 40px;
+  vertical-align: middle;
+}
+
+.friend_text {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.add_friend_button {
+  background-color: rgb(18, 141, 241);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 14px;
+  padding-right: 14px;
+  cursor: pointer;
+  margin-right: 12px;
+  transition: opacity 0.15s;
+}
+
+.add_friend_button:hover {
+  opacity: 0.7;
+}
+
+.message_button {
+  background-color: rgb(221, 228, 233);
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 14px;
+  padding-right: 14px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.message_button:hover {
+  background-color: rgb(182, 182, 182);
+}
+
+.discord_sidebar_flexbox {
+  position: fixed;
+  top: 100px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+}
+
+.discord_sidebar_column1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  background-color: rgb(50, 50, 50);
+  padding-top: 30px;
+}
+
+.profile_image {
+  height: 76px;
+  width: 76px;
+  border-radius: 38px;
+  margin-bottom: 14px;
+  object-fit: cover;
+}
+
+.discord_sidebar_column2 {
+  width: 200px;
+  background-color: rgb(75, 75, 75);
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.info_flexbox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.info_text {
+  color: white;
+  font-size: 25px;
+}
+
+.plus_sign {
+  color: rgb(150, 150, 150);
+  font-size: 25px;
+}
+
+.channel_text {
+  color: rgb(150, 150, 150);
+  font-size: 25px;
+  margin-bottom: 16px;
+}

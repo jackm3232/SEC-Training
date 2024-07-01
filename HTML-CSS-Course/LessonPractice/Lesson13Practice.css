@@ -1,0 +1,193 @@
+div {
+  font-family: Arial;
+}
+
+.flexbox1 {
+  display: flex;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.flexbox1_col1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background-color: lightpink;
+}
+
+.item1 {
+  background-color: black;
+  color: white;
+}
+
+.flexbox1_col2 {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.flexbox2 {
+  display: flex;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.flexbox2_col1 {
+  width: 100px;
+  background-color: lightpink;
+}
+
+.flexbox2_col2 {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.row2_flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2_item {
+  background-color: black;
+  color: white;
+}
+
+.inbox_div {
+  max-width: 400px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+.all_inboxes_text {
+  color: gray;
+  margin-bottom: 25px;
+}
+
+.email_flexbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile_image_div {
+  margin-right: 10px;
+}
+
+.profile_image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.email_info_div {
+  flex: 1;
+}
+
+.email_header_flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.sender_text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.time {
+  color: gray;
+}
+
+.subject_text {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.email_body_text {
+  color: gray;
+}
+
+.entire_tweet_flexbox {
+  display: flex;
+  width: 435px;
+  margin-bottom: 100px;
+}
+
+.profile_pic_div {
+  margin-right: 12px;
+}
+
+.profile_pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.tweet_div {
+  flex: 1;
+  padding-top: 8px;
+}
+
+.tweet_header_flexbox {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.at {
+  color: gray;
+  font-size: 20px;
+}
+
+.tweet_body_text {
+  margin-bottom: 15px;
+}
+
+.attachment_flexbox {
+  display: flex;
+  align-items: center;
+  max-width: 340px;
+  border-color: rgb(219, 219, 219);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.video_placeholder {
+  min-width: 80px;
+  height: 80px;
+  background-color: rgb(219, 219, 219);
+  margin-right: 10px;
+}
+
+.video_info_div {
+  flex: 1;
+}
+
+.youtube_text {
+  color: gray;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+.video_description_text {
+  line-height: 20px;
+  font-size: 13px;
+}

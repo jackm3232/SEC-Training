@@ -1,0 +1,93 @@
+body {
+  height: 3000px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.bottom_right_div {
+  position: fixed;
+  bottom: 14px;
+  right: 14px;
+  background-color: gray;
+  width: 320px;
+  height: 180px;
+}
+
+.close_button {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.time {
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.product_div {
+  position: relative;
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.shirt_image {
+  height: 300px;
+  vertical-align: middle;
+}
+
+.sale_text {
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.button_container {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 75px;
+  background-color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_to_cart_button {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.add_to_cart_button:hover {
+  background-color: black;
+  color: white;
+}

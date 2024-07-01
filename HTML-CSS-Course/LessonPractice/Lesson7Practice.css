@@ -1,0 +1,119 @@
+.dog_image_a {
+  width: 200px;
+  border-radius: 14px;
+  margin-right: 20px;
+}
+
+.dog_image_b {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 20px;
+}
+
+.dog_image_c {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.corners_search {
+  border-radius: 6px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.shadow_search {
+  border: none;
+  border-radius: 30px;
+  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.3);
+  width: 320px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 50px;
+}
+
+.email_text {
+  color: gray;
+  margin-bottom: 6px;
+}
+
+.email_input_box {
+  height: 25px;
+  width: 370px;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.agree_text {
+  color: gray;
+}
+
+.agree_button {
+  background-color: rgb(17, 89, 205);
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 136px;
+  padding-right: 136px;
+  cursor: pointer;
+  margin-bottom: 60px;
+  transition: opacity 0.15s;
+}
+
+.agree_button:hover {
+  opacity: 0.8;
+}
+
+.dog_image_d {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+}
+
+.tweet_input {
+  font-size: 20px;
+  color: gray;
+  border: none;
+  width: 350px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.tweet_button {
+  background-color: rgb(17, 140, 211);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: opacity 0.15s;
+}
+
+.tweet_button:hover {
+  opacity: 0.8;
+}

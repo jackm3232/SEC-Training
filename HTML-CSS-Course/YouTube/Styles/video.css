@@ -1,0 +1,137 @@
+.thumbnail {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.video_title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.video_title_link {
+  text-decoration: none;
+  color: black;
+}
+
+.video_info_grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.channel_picture_tight_container {
+  position: relative;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.profile_picture {
+  width: 36px;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.channel_tooltip {
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  height: 56px;
+  background-color: rgb(249, 249, 249);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 14px;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.channel_picture_tight_container:hover .channel_tooltip {
+  opacity: 1;
+}
+
+.tooltip_picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.tooltip_text_container {
+  white-space: nowrap;
+}
+
+.tooltip_author {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.tooltip_subscribers {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.thumbnail_row {
+  margin-bottom: 11px;
+  position: relative;
+}
+
+.video_author,
+.video_stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video_author {
+  margin-bottom: 4px;
+}
+
+.video_author_link {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+}
+
+.video_grid {
+  display: grid;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+  .video_grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 750.1px) and (max-width: 999.9px) {
+  .video_grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video_grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video_time {
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  padding: 4px;
+}
