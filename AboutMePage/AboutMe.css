@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(4, 0, 29);
+  margin: 0px;
+  padding: 60px 70px 60px 70px;
+}
+
+p {
+  color: white;
+  font-family: Nunito, Arial;
+  margin: 0px;
+}
+
+.page_horizontal_flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image_of_me_container {
+  max-width: 450px;
+  min-width: 200px;
+  margin-right: 80px;
+}
+
+.image_of_me {
+  width: 100%;
+  border-radius: 12px;
+  vertical-align: middle;
+  box-shadow: 0px 0px 12px 2px rgba(255, 255, 255, 0.8);
+}
+
+.text_flexbox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 900px;
+}
+
+.name_text {
+  background-color: rgba(23, 13, 80);
+  box-shadow: 0px 0px 12px 2px rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  font-size: 60px;
+  font-weight: 700;
+  white-space: nowrap;
+  padding: 12px 26px 12px 26px;
+  margin-bottom: 30px;
+}
+
+.bio_text {
+  font-size: 35px;
+  margin-bottom: 18px;
+}
+
+.statement_text {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.gators_image_container {
+  width: 30%;
+}
+
+.gators_image {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.links_container {
+  position: fixed;
+  right: 16px;
+  bottom: 0px;
+}
+
+.links_container img {
+  width: 46px;
+  height: 46px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 23px;
+  vertical-align: middle;
+  margin-bottom: 13px;
+}
